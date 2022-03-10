@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    justify-content: center;
+}
+
+header {
+    background-color: black;
+}
+
+
+ul {
+    list-style: none;
+    display: flex;
+    li {
+        text-align: left;
+        margin: 10px;
+        font-weight: bold;
+    }
+        a {
+        text-decoration: none;
+        color: white;
+        }
+        &:hover {
+            color: gray;
+        }
+}
+
+body {
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+}
+
+h1 {
+    font-weight: bold;
+    text-align: center;
+}
+
+a {
+    text-align: center;
+    justify-content: center;
+    color: black;
+    text-decoration: none;
+    
+    &:hover {
+        color: gray;
+        text-decoration: underline;
+    }
+}
+
+main {
+    color: gray;
+}
+
+p {
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+
+footer {
+    background-color: gray;
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+
